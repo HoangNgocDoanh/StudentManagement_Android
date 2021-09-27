@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Login_ForgetPass.Student.Count_Detail">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/texthello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Wellcome"
+            android:textColor="@color/colorBackground"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/StudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorBackground"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/texthello"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imagemenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_undo"
+            app:layout_constraintBottom_toBottomOf="@id/texthello"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/texthello"
+            app:tint="@color/colorBackground" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/headercount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_rectangle_background"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/layoutHeader"
+        app:layout_constraintStart_toStartOf="@+id/layoutHeader"
+        app:layout_constraintTop_toBottomOf="@id/layoutHeader"
+        app:layout_constraintVertical_bias="0.018">
+
+        <TextView
+            android:id="@+id/giuaki"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Giữa kì"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/cuoiki"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Cuối kì"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tbinh"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="TB"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_rectangle_background"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/headercount"
+        app:layout_constraintStart_toStartOf="@+id/headercount"
+        app:layout_constraintTop_toBottomOf="@id/headercount"
+        app:layout_constraintVertical_bias="0.018">
+
+        <TextView
+            android:id="@+id/dbMid"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dbend"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dbAvg"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

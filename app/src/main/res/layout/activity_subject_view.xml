@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/Mathsubject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Subject_color"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtSubjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Maths"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/txtNoteSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSubjectName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:text="Study hard and success \n goodluck"
+                android:textColor="#fff"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:maxHeight="100sp"
+                android:maxWidth="100sp"
+                android:src="@drawable/maths"></ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

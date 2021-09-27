@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    tools:context=".View.Login_ForgetPass.Student.Schedule">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/Subject"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="WEEK"
+            android:textColor="@color/colorBackground"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imagemenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_undo"
+            app:layout_constraintBottom_toBottomOf="@id/Subject"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Subject"
+            app:tint="@color/colorBackground" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="15dp"
+
+        android:background="@drawable/white_rectangle_background"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Monday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="M"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Monday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Tuesday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="T"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Tuesday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Wednesday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="W"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Wednesday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Thursday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="T"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Thursday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Friday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="F"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Friday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Saturday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="S"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Saturday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Sunday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/tron1"
+                android:text="S"
+                android:gravity="center"
+                android:textSize="60dp"
+                android:textColor="@color/white">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Sunday"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="44.3dp"
+            android:background="#d5d5d5" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

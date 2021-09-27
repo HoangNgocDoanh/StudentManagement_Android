@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/AccountManagement"
+        android:title="ACCOUNT MANAGEMENT"></item>
+
+    <item
+        android:id="@+id/TeacherMangement"
+        android:title="TEACHER MANAGEMENT"></item>
+
+    <item
+        android:id="@+id/StudentMangement"
+        android:title="STUDENT MANAGEMENT"></item>
+
+    <item
+        android:id="@+id/InsertSubject"
+        android:title="ADD SUBJECT"></item>
+
+    <item
+        android:id="@+id/DeleteSubject"
+        android:title="DELETE SUBJECT"></item>
+
+    <item
+        android:id="@+id/EditSubject"
+        android:title="UPDATE SUBJECT"></item>
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="LOG OUT "></item>
+</menu>

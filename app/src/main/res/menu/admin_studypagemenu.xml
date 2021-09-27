@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thêm Sinh viên vào lớp"
+        android:id="@+id/AddStudentInClass"></item>
+
+    <item android:title="Xóa Sinh viên khỏi lớp"
+        android:id="@+id/DeleteStudentOutClass"></item>
+
+    <item android:title="Nhập điểm và sửa điểm"
+        android:id="@+id/InsertScores"></item>
+
+
+</menu>

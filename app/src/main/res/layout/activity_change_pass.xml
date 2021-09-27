@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Login_ForgetPass.ChangePass">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20.7dp">
+
+        <ImageButton
+            android:id="@+id/ImgGoBack"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:src="@drawable/go_back"></ImageButton>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/changepass"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/change_password"
+            android:textColor="#030303"
+            android:textSize="31.3sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/enter_new_password"
+            android:textColor="#605E5E"
+            android:textSize="16sp" />
+
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:id="@+id/txtNewPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11.7dp"
+            android:background="@android:color/transparent"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:paddingRight="44.3dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textCursorDrawable="@drawable/grey_cursor_color"
+            android:textSize="15sp"
+            app:drawable_hide="@drawable/hide1"
+            app:drawable_show="@drawable/show"
+            app:tint_color="#d5d5d5" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginRight="44.3dp"
+            android:layout_marginBottom="5dp"
+            android:background="#d5d5d5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Confirm new password"
+            android:textColor="#605E5E"
+            android:textSize="16sp" />
+
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:id="@+id/txtConfirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11.7dp"
+            android:background="@android:color/transparent"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:paddingRight="44.3dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textCursorDrawable="@drawable/grey_cursor_color"
+            android:textSize="15sp"
+            app:drawable_hide="@drawable/hide1"
+            app:drawable_show="@drawable/show"
+            app:tint_color="#d5d5d5" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="6.3dp"
+            android:layout_marginRight="44.3dp"
+            android:layout_marginBottom="50dp"
+            android:background="#d5d5d5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnChangePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="10dp"
+            android:text="CONFIRM"
+
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/btn_login" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

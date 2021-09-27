@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thêm lớp"
+        android:id="@+id/InsertClass"></item>
+
+    <item android:title="Cập nhật lớp"
+        android:id="@+id/EditClass"></item>
+
+    <item android:title="Xóa lớp"
+        android:id="@+id/DeleteClass"></item>
+
+</menu>
