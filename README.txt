@@ -11,10 +11,12 @@ Quản lý chi tiết thông tin sinh viên
 Quản lý chi tiết thông tin lớp học
 Quản lý danh sách điểm của sinh viên
 Hiển thị thông tin cụ thể cho cả sinh viên, giảng viên.
+
 3.   Các lớp người dùng và đặc điểm người dùng
 Với thông tin ta có thể thấy các lớp người dùng của hệ thống được chia làm 2, dựa trên phân quyền, mục đích người dùng có thể sử dụng:
 Lớp sinh viên: Xem thông tin lớp học, điểm, thông tin cá nhân, lịch học.
 Lớp giảng viên : Quản lý tài khoản, quản lý danh sách lớp học, thông tin sinh viên, quản lý điểm số của sinh viên.
+
 4.   Môi trường hoạt động
 Môi trường hoạt động của ứng dụng : Android.
 Phần mềm xây dựng ứng dụng : Android Studio.
